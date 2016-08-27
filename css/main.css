@@ -90,6 +90,32 @@ a:hover, a:active{
     margin-top: 2%;
 }
 
+.top h2, footer,p{
+    text-align: center;
+}
+.bottom h2,p{
+    text-align: center;
+}
+.fourth h2,p{
+    text-align: center;
+}
+
+.last h2,p{
+    text-align: center;
+}
+
+.topside h2{
+    text-align: center;
+}
+
+.midside h2{
+    text-align: center;
+}
+
+.botside h2{
+    text-align: center;
+}
+
 /*.bo{
     background-color: #FFF;
     border-radius: 5px;
@@ -187,7 +213,7 @@ a:hover, a:active{
 }
 
 .header nav{
-    height: 160px;
+    height: 150px;
 }
 
 .header nav ul{
@@ -201,7 +227,7 @@ a:hover, a:active{
 
 .header nav a:link, .header nav a:visited{
     padding: 10px 25px;
-    height: 20px;
+    height: 10px;
     display: block;
 }
 
