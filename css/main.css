@@ -89,8 +89,18 @@ a:hover, a:active{
     padding: 3% 5%;
     margin-top: 2%;
 }
+.top img{
+ width: 200px;
+ height: 200px;
+ background-size: cover;
+ display: block;
+ border-radius: 100px;
+ -webkit-border-radius: 100px;
+ -moz-border-radius: 100px;
+ margin: 0 auto;
+}
 
-.top h2, footer,p{
+.top h2,p{
     text-align: center;
 }
 .bottom h2,p{
@@ -108,12 +118,47 @@ a:hover, a:active{
     text-align: center;
 }
 
+.topside img{
+ width: 200px;
+ height: 200px;
+ background-size: cover;
+ display: block;
+ border-radius: 100px;
+ -webkit-border-radius: 100px;
+ -moz-border-radius: 100px;
+ margin: 0 auto;
+}
+
+
+
 .midside h2{
     text-align: center;
 }
 
+.midside img{
+ width: 200px;
+ height: 200px;
+ background-size: cover;
+ display: block;
+ border-radius: 100px;
+ -webkit-border-radius: 100px;
+ -moz-border-radius: 100px;
+ margin: 0 auto;
+}
+
 .botside h2{
     text-align: center;
+}
+
+.botside img{
+ width: 200px;
+ height: 200px;
+ background-size: cover;
+ display: block;
+ border-radius: 100px;
+ -webkit-border-radius: 100px;
+ -moz-border-radius: 100px;
+ margin: 0 auto;
 }
 
 /*.bo{
