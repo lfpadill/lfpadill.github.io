@@ -28,44 +28,36 @@ a:hover, a:active{
 .header img{
     width: 100%;
     height: auto;
-    margin: 2% 0;
+    margin-bottom: 0;
 }
 
-.header nav{
-    background-color: #00004d;
-    height: 40px;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-image: url('file:///C:/Users/Luis/Desktop/BackgroundPurple.png');
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
+    height: 50px;
 }
 
-.header nav ul{
-    list-style: none;
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #425966;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
     margin: 0 auto;
 }
 
-.header nav ul li{
-    float: left;
-    display: inline;
-}
-
-.header nav a:link, .header nav a:visited{
-    color:#FFF;
-    display: inline-block;
-    padding: 10px 25px;
-    height: 20px;
-}
-
-.header nav a:hover, .header nav a:active,
-.header nav .active a:link, .header nav .active a:visited{
-    background-color: #800000;
-    text-shadow: none;
-}
-
-.header nav ul li a{
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #d7f9fe;
 }
 
 .main{
@@ -82,12 +74,12 @@ a:hover, a:active{
 }
 
 .top{
-    background-color: #FFF;
+    background-image: url('file:///C:/Users/Luis/Desktop/BackgroundGreen.png');
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     padding: 3% 5%;
-    margin-top: 2%;
+    margin-top: 0%;
 }
 .top img{
  width: 200px;
@@ -118,7 +110,7 @@ a:hover, a:active{
     text-align: center;
 }
 
-.topside img{
+.top1 img{
  width: 200px;
  height: 200px;
  background-size: cover;
@@ -127,6 +119,17 @@ a:hover, a:active{
  -webkit-border-radius: 100px;
  -moz-border-radius: 100px;
  margin: 0 auto;
+}
+
+.top2 img{
+
+    vertical-align:center;
+    max-width:300px;
+    max-height:300px;
+    margin: 0 auto;
+    display: block;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
 }
 
 
@@ -135,7 +138,7 @@ a:hover, a:active{
     text-align: center;
 }
 
-.midside img{
+.mid1 img{
  width: 200px;
  height: 200px;
  background-size: cover;
@@ -144,13 +147,23 @@ a:hover, a:active{
  -webkit-border-radius: 100px;
  -moz-border-radius: 100px;
  margin: 0 auto;
+}
+
+.mid2 img{
+    vertical-align:center;
+    max-width:300px;
+    max-height:300px;
+    display: block;
+    margin: 0 auto;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
 }
 
 .botside h2{
     text-align: center;
 }
 
-.botside img{
+.bot1 img{
  width: 200px;
  height: 200px;
  background-size: cover;
@@ -161,18 +174,19 @@ a:hover, a:active{
  margin: 0 auto;
 }
 
-/*.bo{
-    background-color: #FFF;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    padding: 3% 5%;
-    margin-top: 2%;
-}*/
+.bot2 img{
+    vertical-align:center;
+    max-width:300px;
+    max-height:300px;
+    display: block;
+    margin: 0 auto;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
 
 
 .bottom{
-    background-color: #FFF;
+    background-image: url('file:///C:/Users/Luis/Desktop/BackgroundGreen.png');
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -181,33 +195,33 @@ a:hover, a:active{
 }
 
 .topside{
-    margin: 2% 1.9% 2% 0%;
+    margin: 2% 0% 2% 0%;
     padding: 2% 3%;
   
     float: left;
-    background-color: #FFF;
+    background-image: url('file:///C:/Users/Luis/Desktop/BackgroundPink.png');
     border-radius: 5px;
 }
 
 .midside{
-    margin: 2% 1.9% 2% 0%;
+    margin: 0% 0% 2% 0%;
     padding: 2% 3%;
   
     float: left;
-    background-color: #FFF;
+    background-image: url('file:///C:/Users/Luis/Desktop/BackgroundPink.png');
     border-radius: 5px;
 }
 
 .botside{
-    margin: 2% 0% 2% 0%;
+    margin: 0% 0% 2% 0%;
     padding: 2% 3%;
     float: left;
-    background-color: #FFF;
+    background-image: url('file:///C:/Users/Luis/Desktop/BackgroundPink.png');
     border-radius: 5px;
 }
 
 .fourth{
-    background-color: #FFF;
+    background-image: url('file:///C:/Users/Luis/Desktop/BackgroundGreen.png');
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -215,7 +229,7 @@ a:hover, a:active{
 }
 
 .last{
-    background-color: #FFF;
+    background-image: url('file:///C:/Users/Luis/Desktop/BackgroundGreen.png');
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -226,26 +240,27 @@ a:hover, a:active{
 .foot{
     width: 100%;
     float: left;
-    background-color: #00004d;
+    background-image: url('file:///C:/Users/Luis/Desktop/BackgroundPurple.png');
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    height: 40px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    height: 50px;
 }
+
+
 
 .foot p{
     width: 92%;
     margin: 1% auto;
-    color: #FFF;
+    color: #425966;
 }
 
 .subtitle{
-    font-style: italic;
-    color: #999;
     font-size: 85%;
 }
+
 /*****************************************************************/
 @media only screen and (min-width: 150px) and (max-width: 600px){
 .body{
@@ -263,6 +278,7 @@ a:hover, a:active{
 
 .header nav ul{
     padding-left: 0;
+    height: 100%
 }
 
 .header nav ul li{
@@ -288,7 +304,7 @@ a:hover, a:active{
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     padding: 3% 5%;
-    margin-top: 2%;
+    margin-top: 0%;
 }
 
 .bo{
@@ -318,13 +334,13 @@ a:hover, a:active{
 
 .midside{
     width: 94%;
-    margin: 2% 0 2% 0%;
+    margin: 0% 0 2% 0%;
     padding: 2% 3%;
 }
 
 .botside{
     width: 94%;
-    margin: 2% 0 2% 0%;
+    margin: 0% 0 0% 0%;
     padding: 2% 3%;
 }
 }
