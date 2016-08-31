@@ -228,6 +228,18 @@ li a:hover {
     padding: 3% 5%;
 }
 
+.fourth img{
+     width: 200px;
+ height: 200px;
+ background-size: cover;
+ display: block;
+ border-radius: 100px;
+ -webkit-border-radius: 100px;
+ -moz-border-radius: 100px;
+ margin: 0 auto;
+
+}
+
 .last{
     background-image: url('BackgroundGreen.png');
     border-radius: 5px;
