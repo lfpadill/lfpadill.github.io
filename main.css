@@ -1,0 +1,346 @@
+body{
+    background-color: #330033;
+    color: #000305;
+    font-size: 90%;
+    font-family: Arial, 'Lucida Sans Unicode';
+    line-height: 1.5;
+    text-align: left;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+
+}
+
+a:hover, a:active{
+
+}
+
+.body{
+    margin: 0 auto;
+    width: 90%;
+    /*clear: both;*/
+}
+
+.header img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-image: url('BackgroundPurple.png');
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    height: 50px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #425966;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #d7f9fe;
+}
+
+.main{
+    line-height: 25px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.content{
+    width: 100%;
+    float: left;
+
+}
+
+.top{
+    background-image: url('BackgroundGreen.png');
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 3% 5%;
+    margin-top: 0%;
+}
+.top img{
+ width: 200px;
+ height: 200px;
+ background-size: cover;
+ display: block;
+ border-radius: 100px;
+ -webkit-border-radius: 100px;
+ -moz-border-radius: 100px;
+ margin: 0 auto;
+}
+
+.top h2,p{
+    text-align: center;
+}
+.bottom h2,p{
+    text-align: center;
+}
+.fourth h2,p{
+    text-align: center;
+}
+
+.last h2,p{
+    text-align: center;
+}
+
+.topside h2{
+    text-align: center;
+}
+
+.top1 img{
+ width: 200px;
+ height: 200px;
+ background-size: cover;
+ display: block;
+ border-radius: 100px;
+ -webkit-border-radius: 100px;
+ -moz-border-radius: 100px;
+ margin: 0 auto;
+}
+
+.top2 img{
+
+    vertical-align:center;
+    max-width:300px;
+    max-height:300px;
+    margin: 0 auto;
+    display: block;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+
+
+.midside h2{
+    text-align: center;
+}
+
+.mid1 img{
+ width: 200px;
+ height: 200px;
+ background-size: cover;
+ display: block;
+ border-radius: 100px;
+ -webkit-border-radius: 100px;
+ -moz-border-radius: 100px;
+ margin: 0 auto;
+}
+
+.mid2 img{
+    vertical-align:center;
+    max-width:300px;
+    max-height:300px;
+    display: block;
+    margin: 0 auto;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.botside h2{
+    text-align: center;
+}
+
+.bot1 img{
+ width: 200px;
+ height: 200px;
+ background-size: cover;
+ display: block;
+ border-radius: 100px;
+ -webkit-border-radius: 100px;
+ -moz-border-radius: 100px;
+ margin: 0 auto;
+}
+
+.bot2 img{
+    vertical-align:center;
+    max-width:300px;
+    max-height:300px;
+    display: block;
+    margin: 0 auto;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+
+.bottom{
+    background-image: url('BackgroundGreen.png');
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 3% 5%;
+    margin-top: 2%;
+}
+
+.topside{
+    margin: 2% 0% 2% 0%;
+    padding: 2% 3%;
+  
+    float: left;
+    background-image: url('BackgroundPink.png');
+    border-radius: 5px;
+}
+
+.midside{
+    margin: 0% 0% 2% 0%;
+    padding: 2% 3%;
+  
+    float: left;
+    background-image: url('BackgroundPink.png');
+    border-radius: 5px;
+}
+
+.botside{
+    margin: 0% 0% 2% 0%;
+    padding: 2% 3%;
+    float: left;
+    background-image: url('BackgroundPink.png');
+    border-radius: 5px;
+}
+
+.fourth{
+    background-image: url('BackgroundGreen.png');
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 3% 5%;
+}
+
+.last{
+    background-image: url('BackgroundGreen.png');
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 3% 5%;
+    margin-top: 2%;
+}
+
+.foot{
+    width: 100%;
+    float: left;
+    background-image: url('BackgroundPurple.png');
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    height: 50px;
+}
+
+
+
+.foot p{
+    width: 92%;
+    margin: 1% auto;
+    color: #425966;
+}
+
+.subtitle{
+    font-size: 85%;
+}
+
+/*****************************************************************/
+@media only screen and (min-width: 150px) and (max-width: 600px){
+.body{
+    width: 90%;
+    font-size: 95%;
+}
+
+.header img{
+    width: 100%;
+}
+
+.header nav{
+    height: 150px;
+}
+
+.header nav ul{
+    padding-left: 0;
+    height: 100%
+}
+
+.header nav ul li{
+    width: 100%;
+    text-align: center;
+}
+
+.header nav a:link, .header nav a:visited{
+    padding: 10px 25px;
+    height: 10px;
+    display: block;
+}
+
+.content{
+    width: 100%;
+    float: left;
+    margin-top: 2%;
+}
+
+.top{
+    background-color: #FFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 3% 5%;
+    margin-top: 0%;
+}
+
+.bo{
+    background-color: #FFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 3% 5%;
+    margin-top: 2%;
+}
+
+
+.bottom{
+    background-color: #FFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 3% 5%;
+    margin-top: 2%;
+}
+
+.topside{
+    width: 94%;
+    margin: 2% 0 2% 0%;
+    padding: 2% 3%;
+}
+
+.midside{
+    width: 94%;
+    margin: 0% 0 2% 0%;
+    padding: 2% 3%;
+}
+
+.botside{
+    width: 94%;
+    margin: 0% 0 0% 0%;
+    padding: 2% 3%;
+}
+}
